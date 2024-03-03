@@ -1,0 +1,29 @@
+{% load static %}
+
+{% include 'header.html' %}
+
+
+<form method="POST">
+    {% csrf_token %}
+    <div class="si1">
+    <table align="center">
+        <tr>
+            <th colspan="2" align="center" class="si2">Sign In form</th>
+            </tr>
+            <tr>
+                <th>Username :</th>
+                <th><input type="text" name="luser" placeholder="username"></th>
+                </tr>
+                <tr>
+                    <th>Password :</th>
+                    <th><input type="password" name="lpass" placeholder="password"></th>
+                    </tr>
+                    <tr>
+                        <th colspan="2" align="center" class="si3"><input type="submit" value="Submit"></th>
+                        </tr>
+        </table>
+    </div>
+    </form>
+
+{% include 'footer.html' %}
+

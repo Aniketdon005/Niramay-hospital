@@ -1,0 +1,28 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>header page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' href="{% static 'css/style.css' %}">
+</head>
+<body>
+    
+    <nav class="nav1">
+        <div class="hd1">
+            <div class="logo1"> <p><span>Niramay </span>Hospital<p></div>
+            <ul>
+                <li><a href="{% url 'base' %}">Home</a></li>
+                <li><a href="{% url 'contact' %}">Contact</a></li>
+                {% if request.user.is_authenticated %}
+                <li><a href="{% url 'paitentdashboard' %}">Paitent Details</a></li>
+                <button class="bt1"><a href="{% url 'userlogout' %}">Logout</a></button>
+                {% else %}
+                <button class="bt1"><a href="{% url 'usersignin' %}">Sign In</a></button>
+                <button class="bt1"><a href="{% url 'usersignup' %}">Sign Up</a></button>
+                {% endif %}
+                </ul>
+            </div>
+        </nav>

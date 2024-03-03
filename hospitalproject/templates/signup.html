@@ -1,0 +1,47 @@
+{% load static %}
+
+{% include 'header.html' %}
+
+
+<form method="POST">
+    {% csrf_token %}
+    <div class="su1">
+    <table  align="center">
+        <tr>
+            <th colspan="2" align="center" class="su2">Sign Up form </th>
+            </tr>
+            <tr>
+                <th>First Name :</th>
+                <th><input type="text" name="rfname" placeholder="first name"></th>
+                </tr>
+                <tr>
+                    <th>Last Name :</th>
+                    <th><input type="text" name="rlname" placeholder="last name"></th>
+                    </tr>
+                    <tr>
+                        <th>Username :</th>
+                        <th><input type="text" name="runame" placeholder="username"></th>
+                        </tr>
+                        <tr>
+                            <th>Email :</th>
+                            <th><input type="email" name="remail" placeholder="email"></th>
+                            </tr>
+                            <tr>
+                                <th>Password :</th>
+                                <th><input type="password" name="rpass" placeholder="password"></th>
+                                </tr>
+                                <tr>
+                                    <th>Confirm Password :</th>
+                                    <th><input type="password" name="rcpass" placeholder="confirm password"></th>
+                                    </tr>
+                                    <tr>
+                                       <!----<th>Address :</th>
+                                        <th><textarea rows="2" cols="20" name="raddress" placeholder="Address"></textarea></th>
+                                        </tr>-->
+                                        <tr>
+                                            <th colspan="2" align="center" class="su3"><input type="submit" value="Submit"></th>
+                                            </tr>
+        </table>
+        </div>
+    </form>
+ 

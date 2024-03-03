@@ -1,0 +1,47 @@
+{% load static %}
+
+{% include 'header.html' %}
+
+
+<form method="POST">
+    {% csrf_token %}
+    <div class="ct1">
+    <table align="center">
+        <tr>
+            <th colspan="2" align="center" class="ct2">Contact Details</th>
+            </tr>
+            <tr>
+                <th>Name :</th>
+                <th><input type="text" name = "cname" placeholder="Doctor/Paitent"></th>
+                </tr>
+                <tr>
+                    <th>Email :</th>
+                    <th><input type="email" name = "cemail" placeholder="email"></th>
+                    </tr>
+                    <tr>
+                        <th>Mobile no :</th>
+                        <th><input type="text" name= "cmobile" placeholder="mobile no"></th>
+                        </tr>
+                        <tr>
+                            <th>Age :</th>
+                            <th> <input type="text" name="cage" placeholder="age"></th>
+                            </tr>
+                            <tr>
+                                <th>Gender :</th>
+                                <th><input type="text" name="cgender" placeholder="gender"></th>
+                                </tr>
+                            <tr>
+                                <th>Address :</th>
+                                <th><textarea rows="2" cols="20" name="caddress" placeholder="Address"></textarea></th>
+                                </tr>
+                                <tr>
+                                    <th colspan="2" align="center" class="ct3"><input type="submit" value="Submit"></th>
+                                    </tr>
+
+        </table>
+        </div>
+    </form>
+
+{% include 'footer.html' %}
+
+

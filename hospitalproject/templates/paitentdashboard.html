@@ -1,0 +1,28 @@
+{% load static %}
+
+{% include 'header.html' %}
+
+<h1 class="dash2"><span>Paitent </span>Dashboard</h1>
+<div class="dash1">
+<table border="1" align="center">
+    <tr>
+            <th>ID :</th>
+            <th>Firts name :</th>
+            <th>Last name :</th>
+            <th>Username :</th>
+            <th>Email :</th> 
+        </tr>
+        {% for x in data %}
+    <tr>
+        <th>{{ forloop.counter }}</th>
+        <th>{{ x.first_name }}</th>
+        <th>{{ x.last_name }}</th>
+        <th>{{ x.username }}</th>
+        <th>{{ x.email }}</th>
+        </tr>
+        {% endfor %}
+</table>
+</div>
+
+
+{% include 'footer.html' %}

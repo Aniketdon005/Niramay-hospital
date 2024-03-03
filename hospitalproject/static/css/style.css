@@ -1,0 +1,257 @@
+*{
+    text-decoration: none;
+}
+
+/*this  is navbar css code */
+
+.nav1{
+
+    width: 100%;
+    height: auto;
+    border: 2px solid rgb(242, 240, 240);
+    border-radius: 20px;
+    background:linear-gradient(rgb(149, 233, 229),gray) ;
+
+   
+}
+
+/*this is menus css code */
+
+.hd1{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-right: 30px;
+}
+.nav1 li{
+
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 5px;
+
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    
+
+}
+.nav1 li:hover{
+    background-color: rgb(248, 249, 249);
+    transform: scale(1.1);
+}
+.nav1 ul a{
+    color: black;
+}
+.nav1 ul a:hover{
+    color: rgb(216, 61, 61);
+}
+.nav1 .bt1{
+
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    padding: 7px;
+    margin-right: 10px ;
+
+    background-color: rgb(247, 190, 190);
+    
+}
+.nav1 .bt1:hover{
+    transform: scale(1.1);
+}
+
+
+/*this is logo css code*/
+
+.logo1{
+
+    margin: 0px 20px;
+}
+
+.logo1 span{
+
+        color: crimson;
+        font-size: 30px;
+}
+.logo1 p{
+    color: black;
+}
+
+/*this is signup code css*/
+
+.su1{
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    border-color: rgb(8, 7, 7);
+    box-shadow: 10px 10px 10px black;
+    margin: 200px 500px;
+    padding: 5px;
+    background:linear-gradient(rgb(149, 233, 229),rgb(224, 209, 209));
+    
+}
+.su1 .su2{
+
+    background-color: rgb(227, 238, 234);
+    border-radius: 20px;
+}
+.su1 tr th{
+    padding: 10px;
+}
+.su1 .su3 input{
+
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.su1 .su3 input:hover{
+    background-color: darkgray;
+    transform: scale(1.1);
+}
+/*this is signin code css*/
+
+.si1{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    border-color: rgb(8, 7, 7);
+    box-shadow: 10px 10px 10px black;
+    margin: 200px 500px;
+    padding: 5px;
+    background:linear-gradient(rgb(149, 233, 229),rgb(224, 209, 209));
+    
+}
+.si1 .si2{
+
+    background-color: rgb(227, 238, 234);
+    border-radius: 20px;
+}
+.si1 tr th{
+    padding: 10px;
+}
+.si1 .si3 input{
+
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.si1 .si3 input:hover{
+    background-color: darkgray;
+    transform: scale(1.1);
+}
+/*this is contact css code*/
+
+.ct1{
+    width: 400px;
+    height: 360px;
+    border-radius: 20px;
+    border-color: rgb(8, 7, 7);
+    box-shadow: 10px 10px 10px black;
+    margin: 200px 500px;
+    padding: 5px;
+    background:linear-gradient(rgb(149, 233, 229),rgb(224, 209, 209));
+    
+}
+.ct1 .ct2{
+
+    background-color: rgb(227, 238, 234);
+    border-radius: 20px;
+}
+.ct1 tr th{
+    padding: 10px;
+}
+.ct1 .ct3 input{
+
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.ct1 .ct3 input:hover{
+    background-color: darkgray;
+    transform: scale(1.1);
+}
+/*this is base page img css*/
+
+.bs1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0px 0px;
+
+    
+}
+.bs1 .bs2{
+
+    width: 400px;
+    height: 400px;
+    border: 1px solid rgb(250, 247, 247);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.bs1 img{
+
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+    transition-property: transform;
+    transition-duration: 1s;
+    
+}
+.bs1 img:hover{
+
+    transform: translate(20px);
+}
+/*this is healthcare quotes*/
+
+.hl1{
+
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    font-size: 0vw 5vw;
+}
+.hl1 p{
+
+    font-size: 40px;
+}
+.hl1 span{
+
+    color: rgb(81, 176, 85);
+    font-size: larger;
+}
+.dash1{
+
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    border-color: rgb(8, 7, 7);
+    box-shadow: 10px 10px 10px black;
+    margin: 100px 500px;
+    padding: 10px;
+    background:linear-gradient(rgb(149, 233, 229),rgb(224, 209, 209));
+    
+
+}
+.dash1 tr th{
+
+    padding: auto;
+
+}
+.dash2{
+    text-align: center;
+    margin-top: 100px;
+}
+.dash2 span{
+    color: crimson;
+}
